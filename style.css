@@ -1,0 +1,28 @@
+.container {
+    background-color: black;
+    padding: 1rem;
+    margin: auto;
+}
+.watch{
+    color: green;
+    font-size: 3rem;
+    font-family: fantasy;
+    text-align: center;
+    
+}
+.buttons{
+    text-align: center;
+}
+.start,
+.pause,
+.reset{
+    border: 1px solid white;
+    border-radius: 0.6rem;
+    background-color: black;
+    color: white;
+    padding: 0 0.7rem;
+    margin: 0.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
