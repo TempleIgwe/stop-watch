@@ -12,17 +12,27 @@
 }
 .buttons{
     text-align: center;
+   
 }
 .start,
 .pause,
 .reset{
     border: 1px solid white;
     border-radius: 0.6rem;
-    background-color: black;
+    background-color: gray;
     color: white;
     padding: 0 0.7rem;
-    margin: 0.3rem;
+    margin: 2rem 0.3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    padding: 0.625rem 1.523rem;
+    cursor: pointer;
 
+}
+.start:hover,
+.pause:hover,
+.reset:hover{
+    background-color: brown;
+    color: gold;
+    
 }
